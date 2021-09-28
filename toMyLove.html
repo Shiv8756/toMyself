@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function fn1(){
+            alert("I love you too");
+        }
+        function fn2(){
+            alert("But I really love you");
+        }
+    </script>
+    <style>
+        body{
+            background:url("http://gifimage.net/wp-content/uploads/2017/09/aesthetic-gif-tumblr-7.gif");
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: rgb(226, 175, 185);
+            font-family :serif;
+        }
+     .container{
+         width: 400px;
+         height: 350px;
+         position: absolute;
+         left: 60%;
+         top: 60%;
+         transform: translate(-50% , -50%);
+         box-shadow: 5px 10px 10x #fff;
+     }
+     .container input{
+         width: 100px;
+         height: 50px;
+         /* border: none; */
+         background-color: none;
+         color: rgb(0, 0, 0);
+
+     }
+     
+        
+        
+    </style>
+    </head>
+<body>
+    <div class="container">
+        <h1>Do you love me?</h1>
+            <input type="button" name="no" id="yes" onclick="fn1()" value="Yes">
+            <input type="button" name="no" id="no" onclick="fn2()" value="No">  
+    </div>
+    
+</body>
+</html>
